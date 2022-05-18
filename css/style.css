@@ -1,0 +1,234 @@
+/*reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* begin */
+body{
+    background-color: #373733;
+    font-family: 'Montserrat', sans-serif;
+    color: #CFCBCB;
+}
+
+.wrapper{
+    padding: 0px 10px;
+}
+
+.row{
+    display: flex;
+}
+
+/* .logo{
+    background-color: #000;
+    margin-bottom: 120px;
+}
+
+.logo__img{
+ float: right;
+
+} */
+
+hr {
+margin-top: 10px;
+    }
+
+.controls{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 15%;
+    /* border: 1px solid #fff; */
+    text-align: right;
+}
+
+.text{
+    margin-left: 70px;
+}
+
+.contact{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact:hover{
+    color: #CFCBCB;
+}
+
+
+/* column */
+
+.col-md-1{
+    height: 244px;
+    padding-top: 155px;
+}
+
+.col-md-2{
+    height: 244px;
+    padding-top: 155px;
+}
+
+.col-md-3{
+    height: 137px;
+}
+
+.col-md-4{
+    height: 137px;
+}
+
+.col-md-5{
+    height: 350px;
+}
+
+.col-md-6{
+    height: 350px;
+}
+
+
+.col-offset{
+
+}
+
+
+/* text */
+
+
+.text__title{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.text__subtitle{
+    font-size: 27px;
+    font-family: 'Hind', sans-serif;
+}
+
+.text__text{
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.red__color{
+    color: #e78f8f;
+}
+
+/* col-md */
+
+.col-md-1{
+
+}
+
+
+/* arrow */
+
+.arrow-3 {
+    color: #CFCBCB;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+
+    font-family: 'Hind', sans-serif;
+
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+
+
+
